@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "co.creativemind.device_information"
-    compileSdkVersion 34
+    compileSdkVersion 29
 
     // compileOptions {
     //     // // Flag to enable support for the new language APIs
@@ -38,7 +38,7 @@ android {
     // }    
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 16
     }
     lintOptions {
         disable 'InvalidPackage'
