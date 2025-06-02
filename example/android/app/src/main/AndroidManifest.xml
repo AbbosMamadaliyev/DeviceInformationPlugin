@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <application
-        android:name="io.flutter.app.FlutterApplication"
+        android:name="${applicationName}"
         android:label="device_information_example"
         android:icon="@mipmap/ic_launcher">
         <activity
